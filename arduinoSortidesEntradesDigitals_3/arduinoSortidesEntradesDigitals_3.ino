@@ -18,6 +18,7 @@ const int ledPin4 = 9;   // LED connected to digital pin 9
 const int ledPin5 = 10;  // LED connected to digital pin 10
 const int ledPin6 = 11;  // LED connected to digital pin 11
 const int ledPin7 = 12;  // LED connected to digital pin 12
+int pausa = 100;
   
 void setup()
 {
