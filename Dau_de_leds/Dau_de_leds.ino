@@ -35,29 +35,30 @@ void setup()
 //********** Loop *****************************************************************
 void loop()
 {
-  digitalWrite(leds1, LOW);  digitalWrite(leds2, HIGH);  //nombre 2
+  digitalWrite(leds1, LOW);  
+  digitalWrite(leds2, HIGH);  //nombre 2
   
   delay(pausa);
   
-  digitalWrite(leds1, HIGH);  digitalWrite(leds2, LOW);  //nombre3
+  digitalWrite(leds1, HIGH);    digitalWrite(leds2, LOW);  //nombre3
   digitalWrite(leds3, HIGH);
   
   delay(pausa);
   
-  digitalWrite(leds1, LOW);  digitalWrite(leds2; HIGH);  //nombre 4
+  digitalWrite(leds1, LOW);    digitalWrite(leds2, HIGH);  //nombre 4
   
   delay(pausa);
   
-  digitalWrite(leds1, HIGH);                            // nombre 5
+  digitalWrite(leds1, HIGH);                              // nombre 5
   
   delay(pausa);
   
-  digitalWrite(leds1; LOW);  digitalWrite(leds4, HIGH); // nombre 6
+  digitalWrite(leds1, LOW);    digitalWrite(leds4, HIGH); // nombre 6
   
   delay(pausa);
   
-  digitalWrite(leds4, LOW);  digitalWrite(leds3, LOW);  // nombre 1
-  digitalWrite(leds2, LOW);  digitalWrite(leds1, HIGH);
+  digitalWrite(leds4, LOW);    digitalWrite(leds3, LOW);  // nombre 1
+  digitalWrite(leds2, LOW);    digitalWrite(leds1, HIGH);
   
   delay(pausa);
   
